@@ -1,0 +1,57 @@
+.loginCard {
+  background: #fe8c00; /* fallback for old browsers */
+  background: #fe8c00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #f83600,
+    #fe8c00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #f83600,
+    #fe8c00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: whitesmoke;
+}
+
+.signup {
+  margin-top: 10px;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 40%;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3);
+  border-radius: 1em;
+  padding: 2px;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0 50px;
+}
+
+.loginButton {
+  width: 100%;
+  margin: 2rem 0 0.5rem;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.loginForgotPassword {
+  width: 50%;
+  text-align: center;
+}
+
+.loginFooter {
+  width: 500px;
+  display: inline-flex;
+  padding: 1rem;
+}
+
+/* .loginText {
+  background-color: yellow !important;
+} */

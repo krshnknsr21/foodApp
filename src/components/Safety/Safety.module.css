@@ -1,0 +1,16 @@
+.safety {
+  position: static;
+  background-color: white;
+  padding: 1rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.safetyImage {
+  box-sizing: inherit;
+  height: 100%;
+  width: 100%;
+  border-radius: 7px;
+  background-image: whitesmoke;
+}

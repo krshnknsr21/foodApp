@@ -1,0 +1,105 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
+
+.branchContainer {
+  max-width: 1300px;
+  margin: auto;
+  color: #272727;
+  font-family: "Quicksand", serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+  display: block;
+  align-self: center;
+}
+
+.branchTitle {
+  font-family: "Russo One", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.branchCards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  justify-content: center;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 30%;
+  }
+}
+
+.card {
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(0.95, 0.95);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.card_content {
+  padding: 1rem;
+  height: 100%;
+  background: linear-gradient(to bottom, #087e8b 30%, #bfd7ea 100%);
+  color: white;
+}
+
+.card_content_selected {
+  padding: 1rem;
+  background: linear-gradient(to bottom, #e23942 30%, #ff8d91 100%);
+  color: whitesmoke;
+}
+
+.card_title {
+  font-size: 1.6rem;
+  font-weight: 900;
+  font-family: "Noto Sans", sans-serif;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-bottom: 1.25rem;
+}
+
+.card_text {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+.made_by {
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.selectedBranch {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.7rem;
+}

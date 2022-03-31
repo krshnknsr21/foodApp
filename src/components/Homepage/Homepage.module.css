@@ -1,0 +1,11 @@
+.homePage {
+  background-color: antiquewhite;
+  background-repeat: no-repeat;
+  position: relative;
+  color: black;
+  margin: 0;
+}
+
+.menuItems {
+  margin-top: 50px;
+}

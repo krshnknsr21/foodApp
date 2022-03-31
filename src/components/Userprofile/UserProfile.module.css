@@ -1,0 +1,55 @@
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0 50px;
+}
+
+.profileCard {
+  background: #fe8c00; /* fallback for old browsers */
+  background: #fe8c00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #f83600,
+    #fe8c00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #f83600,
+    #fe8c00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: whitesmoke;
+}
+
+.signup {
+  margin-top: 10px;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 40%;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3);
+  border-radius: 1em;
+  padding: 2px;
+}
+
+.branch {
+  margin: 1rem;
+  width: 150px;
+  height: 50px;
+}
+
+.edit {
+  margin: 0 !important;
+}
+
+.profileButtons {
+  margin: 1rem 0 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.userProfileFormLabel {
+  margin-top: 0.8rem;
+}

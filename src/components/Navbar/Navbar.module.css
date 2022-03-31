@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+.header {
+  background: linear-gradient(to right, #660000, #e32636, #eb7812);
+  display: flex;
+  /* color: white; */
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  z-index: 999;
+  top: 0;
+  position: sticky;
+  /* width: 100vw; */
+  transition: all 0.3s ease-in-out;
+}
+
+.logoName {
+  padding: 10px;
+  /* margin: 10px; */
+  color: white;
+  /* width: 10%; */
+  font-family: "Bad Script", cursive;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.linkTop {
+  margin: 1rem;
+  text-decoration: none;
+  color: black;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.6rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.link_Top {
+  text-decoration: none;
+  color: black;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.6rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.linkScrollDown {
+  padding: 5px;
+  margin: 1rem;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.4rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.linkTop:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  color: white;
+
+  /* border-bottom: 3px solid black; */
+}
+
+.linkTop::selection {
+  border-bottom: 1px solid black;
+}
+
+.linkScrollDown:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  color: white;
+}
+
+.navbar_page_links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbarLogo {
+  width: 150px;
+}
+
+.underStyle:active {
+  width: inherit;
+  height: 3px;
+  background-color: black;
+}
+
+.navbarCartIcon {
+  color: black;
+}
+
+.navbarCartIcon:hover {
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar_burgerMenu {
+  align-items: flex-end;
+  margin: 0.5rem;
+}

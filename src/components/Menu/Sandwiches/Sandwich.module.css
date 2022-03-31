@@ -1,0 +1,11 @@
+.menuCardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  /* width:100% */
+  flex-wrap: wrap;
+  list-style: none;
+  overflow: hidden;
+}

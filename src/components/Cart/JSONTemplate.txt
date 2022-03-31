@@ -1,0 +1,20 @@
+const cart = {
+    orderID: orderID,
+    userID: currentUser.uid,
+    branch: branch,
+    items: [
+        {
+            itemID: 1,
+            quantity: quantity
+        },
+        {
+            itemID: 2,
+            quantity: quantity
+        },
+        {
+            itemID: 3,
+            quantity: quantity
+        }
+    ],
+    totalCost: total
+}

@@ -1,0 +1,60 @@
+.editQuantityButton {
+  border-radius: 50% !important;
+}
+
+.editQuantityButton:hover {
+  background-color: rgba(0, 0, 255, 0.3) !important;
+  transition: all 0.5s ease-in-out;
+}
+
+.editQuantityButton:active {
+  color: rgba(255, 255, 255, 1);
+  transition: none;
+}
+
+.deleteItemButton {
+  margin-left: 2rem !important;
+  border-radius: 50% !important;
+  background-color: whitesmoke !important;
+}
+
+.deleteItemButton:hover {
+  background-color: rgba(255, 0, 0, 0.6) !important;
+  transition: 0.5s ease-in-out;
+}
+
+.deleteItemButton:active {
+  color: rgba(255, 255, 255, 1);
+  transition: none;
+}
+
+.cartItemCountText {
+  font-size: 25px;
+  font-weight: 600;
+  padding: 0 15px 0;
+  color: rgb(88, 88, 88) !important;
+}
+
+.itemRow {
+  background-color: bisque;
+}
+
+.quantityControls {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 2rem !important;
+  border: 2px solid lightgray;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Changa&display=swap");
+.itemText {
+  font-family: "Changa", sans-serif !important;
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+  color: rgb(78, 78, 78) !important;
+  color: rgb(45, 45, 45) !important;
+}
+
+.controlButtons {
+  display: inline-flex;
+}

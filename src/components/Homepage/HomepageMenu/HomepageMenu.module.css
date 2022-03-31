@@ -1,0 +1,71 @@
+.homeheader_h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.5rem;
+  font-family: "Russo One", sans-serif;
+  padding-top: 40px;
+}
+
+.homecards_list {
+  z-index: 0;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 40px;
+  align-items: space-around;
+}
+
+.homecard {
+  margin: 1rem;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.homecard .homecard_image {
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.homecard .homecard_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: -175px;
+  height: 40px;
+  color: white;
+  align-items: flex-start;
+}
+
+.homepageMenu_container {
+  width: 100%;
+  background-image: url("../../../images/background.png");
+}
+
+.homecard:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+@media (min-width: 40rem) {
+  .homecards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .homecards_item {
+    width: 30%;
+  }
+}

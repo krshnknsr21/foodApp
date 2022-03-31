@@ -1,0 +1,71 @@
+.summaryContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  /* min-height: 500px; */
+  min-width: 20% !important;
+  width: 800px !important;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  background: #efefbb; /* fallback for old browsers */
+  background: linear-gradient(
+    to right,
+    whitesmoke,
+    #e7e7d5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.summaryMainHeading {
+  color: whitesmoke;
+  padding: 10px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: gray !important;
+}
+
+.summaryItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  /* min-height: 500px; */
+  border-radius: 5px;
+  background-color: antiquewhite;
+  margin: 1.5rem;
+  width: 100% !important;
+  margin: 0;
+  /* width: 800px !important; */
+  background-color: whitesmoke;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.summaryHeading {
+  background: lightgray !important;
+  color: whitesmoke !important;
+  color: black !important;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.summaryFooter {
+  border-top: 2px solid black !important;
+}
+
+.summaryTotalRow {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: black;
+}
+
+.summaryPriceFooter {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: rgb(57, 57, 57);
+}

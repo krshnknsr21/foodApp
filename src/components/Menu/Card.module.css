@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+.menuCard {
+  width: 320px;
+  height: 420px;
+  margin: 30px;
+  padding: 10px 0 10px;
+  border-radius: 15px;
+  background-color: #262626;
+  background-color: #ece7e2;
+  background: #ff512f;
+  background: linear-gradient(to right, #f7d6b5, #d18070);
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  color: white;
+  color: #37393a;
+}
+
+.menuCard:hover {
+  box-shadow: 2px 2px 15px 5px rgba(57, 21, 21, 0.4);
+}
+
+.menuCardImgBody {
+  width: 320px;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  /* border-bottom: solid 1px #37393a; */
+}
+
+.menuCardImg {
+  max-width: 100%;
+  height: 200px;
+  align-items: center;
+  background-color: antiquewhite;
+  object-fit: cover;
+  object-position: center;
+}
+
+.menuCardBody {
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+}
+
+.menuCardTitle {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 0 0 10px;
+  text-align: center;
+  justify-content: center;
+  font-family: "Days One", sans-serif;
+  display: flex;
+}
+
+.menuCardDescription {
+  padding: 0;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.menuVegIcon {
+  margin-left: 10px;
+  background-color: white;
+}
+
+.menuCardPrice {
+  margin-left: 8px;
+  color: #231301;
+  top: 150px;
+  left: 25px;
+  position: absolute;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.menuAddToCartBtn {
+  top: 140px;
+  right: 20px;
+  position: absolute;
+  border: solid red 1px;
+  border-radius: 10px;
+  background-color: red;
+  color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.menuAddToCartBtn:hover {
+  transform: scale(1.05);
+  color: white;
+}
+
+.menuAddToCartBtn:active {
+  border: solid red 1px;
+  background-color: white;
+  color: red;
+}

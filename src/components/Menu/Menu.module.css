@@ -1,0 +1,28 @@
+.menuContainer {
+  background-color: whitesmoke;
+  background-image: url("../../images/121.jpg");
+  background-size: cover;
+}
+
+.menuNavbar {
+  position: sticky;
+  top: 4rem;
+  z-index: 10;
+  background-color: white;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.selectedTab {
+  background-image: url("../../images/118.jpg");
+  background-size: cover;
+  object-fit: fill;
+  color: #fff !important;
+}
+
+.menuTab:hover {
+  color: #fff !important;
+  background-image: url("../../images/118.jpg");
+  background-size: cover;
+  object-fit: fill;
+  transition: all 0.2s ease-in-out;
+}
